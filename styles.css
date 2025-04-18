@@ -1,0 +1,100 @@
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Body y fuentes */
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff7f9;
+    color: #4b004b;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #ffe4e6 !important;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #db2777 !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #a21caf !important;
+    font-weight: 500;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #86198f !important;
+  }
+  /* Hero con video */
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    filter: brightness(0.5); /* oscurece el video para que el texto resalte */
+  }
+  
+  .hero-overlay {
+    position: relative;
+    z-index: 2;
+    padding: 2rem;
+    height: 100vh;
+  }
+  
+  
+  /* Cards */
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f472b6;
+    color: white;
+  }
+  
+  /* Secciones */
+  section {
+    padding: 60px 0;
+  }
+  
+  /* Títulos */
+  h2, h3 {
+    color: #be185d;
+    font-weight: bold;
+  }
+  
+  /* Botón personalizado */
+  .btn-pink {
+    background-color: #f472b6;
+    color: white;
+    border-radius: 25px;
+  }
+  
+  .btn-pink:hover {
+    background-color: #ec4899;
+    color: white;
+  }
+  
